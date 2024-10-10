@@ -63,7 +63,6 @@ body {
   border-radius: 20px;
 }
 
-
 .hero-section {
   background-image: url('/assets/earth.svg');
   background-size: cover;
@@ -172,6 +171,9 @@ footer {
 
 /* Responsividade para telas menores */
 @media (max-width: 768px) {
+  body{
+    background-color: #000;
+  }
   .hero-section {
     padding-left: 30px;
     padding-right: 30px; /* Ajustar as bordas para centralizar melhor os textos */
