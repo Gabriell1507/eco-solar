@@ -112,7 +112,7 @@ body {
 }
 
 .info-section {
-  padding: 50px 135px; /* Add padding on both sides */
+  padding: 50px 135px; 
   text-align: left;
   color: #fff;
   background-color: #000;
@@ -169,14 +169,13 @@ footer {
   background-color: #333;
 }
 
-/* Responsividade para telas menores */
 @media (max-width: 768px) {
   body{
     background-color: #000;
   }
   .hero-section {
     padding-left: 30px;
-    padding-right: 30px; /* Ajustar as bordas para centralizar melhor os textos */
+    padding-right: 30px; 
   }
 
   .hero-content h1 {
@@ -217,7 +216,7 @@ footer {
   }
 }
 
-/* Responsividade para telas muito pequenas */
+
 @media (max-width: 480px) {
   .hero-section {
     padding-left: 20px;
